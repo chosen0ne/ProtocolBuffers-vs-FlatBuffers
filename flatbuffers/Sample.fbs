@@ -1,0 +1,11 @@
+
+namespace Sample;
+
+table Sample {
+    id: int;
+    name: string;
+    ip: int;
+    addr_list: [int];
+}
+
+root_type Sample;
